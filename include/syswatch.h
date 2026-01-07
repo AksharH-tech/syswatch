@@ -5,6 +5,7 @@
 #define CPU_THRESHOLD 85.0
 
 void check_cpu(void);
+void check_mem(void);
 
 #endif
 
