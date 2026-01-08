@@ -6,6 +6,7 @@
 
 void check_cpu(void);
 void check_mem(void);
+void check_processes(void);
 
 #endif
 

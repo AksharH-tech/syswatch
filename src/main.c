@@ -8,6 +8,7 @@ int main(void) {
     while (1) {
         check_cpu();
         check_mem();
+        check_processes();
         sleep(DEFAULT_POLL_INTERVAL);
     }
 
