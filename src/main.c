@@ -9,6 +9,7 @@ int main(void) {
         check_cpu();
         check_mem();
         check_processes();
+        check_ports();
         sleep(DEFAULT_POLL_INTERVAL);
     }
 
